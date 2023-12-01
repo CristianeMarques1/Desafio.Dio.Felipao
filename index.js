@@ -1,9 +1,8 @@
-let nomeDeHeroina = ("Wanda")
-let pontoDeExperiencia = ( 9683)
+let nomeDeHeroina = (" Dandara dos Palmares ")
+let pontosDeExperiencia = ( 9683 )
 
-if (pontoDeExperiencia <= 2000) {
-    print ( "prata")
-}
-else if  ( pontoDeExperiencia >= 9000  ){ 
-    print ( " Esta heroina de nome:" + nomeDeHeroina + "Esta no nivel:ouro")
+if (pontosDeExperiencia > 9000 && pontosDeExperiencia < 10000) {
+    console.log ( " Esta é a  heroina de nome:" + nomeDeHeroina + " e ela alcançou o nível IMORTAL!");
+} else {
+    console.log ( nomeDeHeroina + "precisa lutar mais para ganhar mais pontos de experiência" )
 }
